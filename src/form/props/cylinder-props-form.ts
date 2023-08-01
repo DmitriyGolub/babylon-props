@@ -75,5 +75,6 @@ export class CylinderPropsForm extends Form {
       this.scene,
     );
     this.cylinder.setPreTransformMatrix(m4);
+    this.resetLine(this.cylinder);
   }
 }

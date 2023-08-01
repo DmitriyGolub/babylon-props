@@ -37,6 +37,6 @@ export class App {
 
     setInterval(() => {
       AnimationUtils.applyBouncing(ball2, 4, 2000);
-    }, 4000);
+    }, 2300);
   }
 }
